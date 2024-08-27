@@ -33,6 +33,31 @@
 - All functions and methods should have documentation.
 - All functions and coroutines must be type-annotated.
 
+## Files
+- `0-app.py`: Basic Flask app setup.
+- `1-app.py`: Basic Babel setup.
+- `2-app.py`: Get locale from request.
+- `3-app.py`: Parametrize templates.
+- `4-app.py`: Force locale with URL parameter.
+- `5-app.py`: Mock logging in.
+- `6-app.py`: Use user locale.
+- `7-app.py`: Infer appropriate time zone.
+- `app.py`: Display the current time.
+- `babel.cfg`: Babel configuration file.
+- `templates/0-index.html`: Template for task 0.
+- `templates/1-index.html`: Template for task 1.
+- `templates/2-index.html`: Template for task 2.
+- `templates/3-index.html`: Template for task 3.
+- `templates/4-index.html`: Template for task 4.
+- `templates/5-index.html`: Template for task 5.
+- `templates/6-index.html`: Template for task 6.
+- `templates/7-index.html`: Template for task 7.
+- `templates/index.html`: Template for task 8.
+- `translations/en/LC_MESSAGES/messages.po`: English translations.
+- `translations/fr/LC_MESSAGES/messages.po`: French translations.
+- `translations/en/LC_MESSAGES/messages.mo`: Compiled English translations.
+- `translations/fr/LC_MESSAGES/messages.mo`: Compiled French translations.
+
 ## Tasks
 
 ### 0. Basic Flask app
